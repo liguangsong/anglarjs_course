@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 1,
     "desc": [
-        "除了可以绑定变量外，我们还可以绑定函数。函数绑定用于绑定HTML中的函数。例如，html文件中有一个\n\r      <button ng-click='alert_tip()'>tip</button>  \n\r按钮标签，那么当我们点击这个按钮时就会触发alert_tip()这个函数，在控制器（Controller）中，通过$scope.alert_tip可以编写这个函数的具体代码。\n\r"
+        "<p>除了可以绑定变量外，我们还可以绑定函数。函数绑定用于绑定HTML中的函数。例如，html文件中有一个<button ng-click='alert_tip()'>tip</button>按钮标签，那么当我们点击这个按钮时就会触发alert_tip()这个函数，在控制器（Controller）中，通过$scope.alert_tip可以编写这个函数的具体代码。</p>"
     ],
     "code": "//在html中有如下代码：\r\t<button ng-click='alert_tip()'>tip</button>",
     "question": {

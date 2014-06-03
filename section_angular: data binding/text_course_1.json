@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 0,
     "desc": [
-        "变量绑定用于绑定HTML中的变量。我们可以用ngBind属性来用一个表达式取代HTML元素的文本内容，当表达式改变后，HTML元素的文本内容会相应的改变。当然我们还可以用更简单的双大括号实现变量绑定，我们在页面上有一个'{{expression}}'，然后在控制器（Controller）中，通过$scope获取到'expression'这个变量，并赋值（$scope.expression='world'）。这样在页面上就会显示出'world'字样。\n\r"
+        "<p>变量绑定用于绑定HTML中的变量。我们可以用ngBind属性来用一个表达式取代HTML元素的文本内容，当表达式改变后，HTML元素的文本内容会相应的改变。当然我们还可以用更简单的双大括号实现变量绑定，我们在页面上有一个'{{expression}}'，然后在控制器（Controller）中，通过$scope获取到'expression'这个变量，并赋值（$scope.expression='world'）。这样在页面上就会显示出'world'字样。</p>"
     ],
     "code": "//在main.html中有如下内容\r\t<p>Hello, {{name}}!</p>\r\t//在对应的控制器中有如下内容\r\t$scope.name='world';",
     "question": {
