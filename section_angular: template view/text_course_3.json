@@ -3,9 +3,9 @@
     "type": "topic",
     "order": 2,
     "desc": [
-        "<p>为了能够让handler正确的响应我们的请求，展示出我们想要的页面，handler需要由两部分组成页面模板（template）和控制器（controller），这个时候handler就变形成{ template,  controller}。</p>",
-        "<p>这节我们讲页面模板，下面一节再讲控制器。</p>",
-        "<p>我们可以使用templateUrl来指定对应的页面模板，templateUrl是要渲染的HTML页面的文件的相对路径。例如，我们有'name.html'这个页面的资源（模版文件是'name.html'，与路由文件放在同一目录下)，那么'templateUrl'则为'name.html'。</p>"
+        "为了能够让handler正确的响应我们的请求，展示出我们想要的页面，handler需要由两部分组成页面模板（template）和控制器（controller），这个时候handler就变形成{ template,  controller}。\n\r",
+        "这节我们讲页面模板，下面一节再讲控制器。\n\r",
+        "我们可以使用templateUrl来指定对应的页面模板，templateUrl是要渲染的HTML页面的文件的相对路径。例如，我们有'name.html'这个页面的资源（模版文件是'name.html'，与路由文件放在同一目录下)，那么'templateUrl'则为'name.html'。\n\r"
     ],
     "code": ".when('/choose_person/liming', {\r\ttemplateUrl: '页面模板',\r\tcontroller: 'ChoosePersonCtrl'\r\t})",
     "question": {
