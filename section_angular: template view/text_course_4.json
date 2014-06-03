@@ -4,7 +4,7 @@
         "order": 3,
         "desc": [
            "本章最重要的部分就是控制器了，控制器可以动态的修改模板中的代码，具体如何修改会在以后的章节学习\n\r",
-           "这节我们重点讲，如何配置controller\n\r      .when(choose/liming,\r\t     {/* 如左侧代码所示,我们用`controller: 控制器的名字`的格式来指定对应的控制器*/});\n\r",
+           "这节我们重点讲，如何配置controller\n\r      when(choose/liming,\r\t     {/* 如左侧代码所示,我们用`controller: 控制器的名字`的格式来指定对应的控制器*/});\n\r",
            "`控制器的名字`在代码中被定义。大概的格式之一如下:\n\r      angular.module(`orderMasterApp`)\r\t     .controller(`ChoosePersonCtrl`, function ($scope) {/*这里写控制器的内容，我们在以后章节会详细讲解*/});\n\r"
             ],
         "code": "//route.js文件中代码片段：\r\t.when('/choose_person/liming', {\r\t    templateUrl: 'views/choose_person.html',\r\t    controller: '控制器'\r\t})\r\t\r\t//choose_person_controller.js文件中内容为：\r\tangular.module('orderMasterApp')\r\t.controller('ChoosePersonCtrl', function ($scope) {\r\t    \/\/这里写控制器的内容，我们在以后章节会详细讲解\r\t});",
