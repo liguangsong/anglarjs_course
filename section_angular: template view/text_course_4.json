@@ -4,7 +4,7 @@
         "order": 3,
         "desc": [
             "当我们使用这些\\`设施\\`时，我们会发出一系列的命令，根据不同的命令会有不同的响应，就好像用遥控器换台一样。这些\\`设施\\`如何为我们服务是由控制器（controller）提供的。\n\r",
-            "我们用(controller: \\`控制器的名字\\`)的格式来指定对应的控制器。\\`控制器的名字\\`在对应的控制器文件中被定义。例如，一个控制器文件中这样写：\n\r      angular.module('App').controller('name', function () {})， \n\r那么它的\\`控制器的名字\\`为\\`name\\`。\n\r"
+            "我们用(controller: \\`控制器的名字\\`)的格式来指定对应的控制器。\\`控制器的名字\\`在对应的控制器文件中被定义。例如，一个控制器文件中这样写：\n\r      angular.module(\\`App\\`).controller(\\`name\\`, function () {})， \n\r那么它的\\`控制器的名字\\`为\\`name\\`。\n\r"
         ],
         "code": "//route.js文件中代码片段：\r\t.when('/choose_person/liming', {\r\t    templateUrl: 'views/choose_person.html',\r\t    controller: '控制器'\r\t})\r\t\r\t//choose_person_controller.js文件中内容为：\r\tangular.module('orderMasterApp')\r\t.controller('ChoosePersonCtrl', function ($scope) {\r\t    \/\/这里写控制器的内容，我们在以后章节会详细讲解\r\t});",
         "question": {
