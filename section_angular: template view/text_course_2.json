@@ -5,8 +5,7 @@
     "desc": [
         "<p>像前文所说我们想要访问/students，并且显示所有学生的列表，那么我们需要正确的配置/students和Handler（响应器），将/students和Handler建立联系</p>",
         "<p>我们如何建立联系呢？</p>",
-        "<p>我们通过.when函数把/students和Handler建立联系。代码如下：</p>",
-        "<code>.when('/students',Handler)</code>",
+        "<p>我们通过.when函数把/students和Handler建立联系。代码如下：</p><code>.when('/students',Handler)</code>",
         "<p>这样当我们访问/students这个页面时，我们就交给handler响应/students的请求。</p>"
     ],
     "code": ".when('path' \/*path是我们的门牌号 *\/, \r\t{    ...    \/* 这里写我们的房间*\/})",
