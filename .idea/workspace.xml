@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="998186b5-d567-4c5f-8b76-ecac6c33e7c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: data binding/text_course_1.json" afterPath="$PROJECT_DIR$/section_angular: data binding/text_course_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: ngRepeat/text_course_1.json" afterPath="$PROJECT_DIR$/section_angular: ngRepeat/text_course_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: template view/text_course_1.json" afterPath="$PROJECT_DIR$/section_angular: template view/text_course_1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: data binding/text_course_2.json" afterPath="$PROJECT_DIR$/section_angular: data binding/text_course_2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: template view/text_course_2.json" afterPath="$PROJECT_DIR$/section_angular: template view/text_course_2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/section_angular: template view/text_course_3.json" afterPath="$PROJECT_DIR$/section_angular: template view/text_course_3.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/anglarjs_course.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="anglarjs_course.iws" />
     <ignored path=".idea/workspace.xml" />
