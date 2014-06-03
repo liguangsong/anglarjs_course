@@ -1,5 +1,5 @@
 {
-    "title": "路由的path",
+    "title": "路由的配置",
     "type": "topic",
     "order": 1,
     "desc": [
@@ -14,7 +14,7 @@
         "options": ["'/liming'","'/choose_person/liming'","'localhost:3000/choose_person/liming'"]
     },
     "answer": {
-        "value": "/choose_person/liming",
+        "value": "‘/choose_person/liming’",
         "explains": [
             "<p>这里的URL是'localhost:3000/choose_person/liming'，域名是'localhost:3000'，答案当然是'/choose_person/liming'</p>"
         ]
