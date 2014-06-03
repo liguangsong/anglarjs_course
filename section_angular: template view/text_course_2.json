@@ -11,7 +11,7 @@
     "code": ".when(url , Handler)",
     "question": {
         "content": "一个用户在地址栏输入了'localhost:3000/choose_person/liming'，那么浏览器就会展现出'liming'页面给用户。那么这里的url是什么呢？",
-        "options": ["/liming","/choose_person/liming","localhost:3000/choose_person/liming"]
+        "options": ["‘/liming’","‘/choose_person/liming’","‘localhost:3000/choose_person/liming’"]
     },
     "answer": {
         "value": "/choose_person/liming",
