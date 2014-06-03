@@ -20,6 +20,10 @@
             "path": "/angular part-one template/views/"
         },
         {
+            "name": "main_controller.js",
+            "path": "/angular part-one template/scripts/controllers/"
+        },
+        {
             "name": "order_details_controller.js",
             "path": "/angular part-one template/scripts/controllers/"
         }
