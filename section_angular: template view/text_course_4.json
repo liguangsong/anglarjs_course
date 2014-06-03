@@ -16,7 +16,7 @@
         "answer": {
             "value": "ChoosePersonCtrl",
             "explains": [
-                "<p>这里应该写出控制器的名字，而不是控制器的文件名，答案应该是'ChoosePersonCtrl'</p>"
+                "<p>这里应该写出为控制器设定的名字'ChoosePersonCtrl'</p>"
             ]
         }
     }
