@@ -3,9 +3,11 @@
     "type": "topic",
     "order": 1,
     "desc": [
-        "<p>正像前面说的，$routeProvider提供了完整的门牌号与房间的对应表，其中when方法就是为了可以根据门牌号，找到对应的房间。</p>",
-        "<p>而这个门牌号就是我们现在讲的path，path与用户在地址栏中输入的URL一一对应。例如，当一个用户输入URL为'localhost:3000/name'，那么path即为'/name'，它是URL中去掉域名的部分。</p>",
-        "<p>这个房间就是我们要展现给用户的页面：choose_person.html</p>"
+        "<p>像前文所说我们想要访问/students，并且显示所有学生的列表，那么我们需要正确的配置/students和Handler（响应器），将/students和Handler建立联系</p>",
+        "<p>我们如何建立联系呢？</p>",
+        "<p>我们通过.when函数把/students和Handler建立联系。代码如下：</p>"
+        "<code>.when('/students‘, handler)</code>"
+        "这样当我们访问/students这个页面时，我们就交给handler响应/students的请求。"
     ],
     "code": ".when('path' \/*path是我们的门牌号 *\/, \r\t{    ...    \/* 这里写我们的房间*\/})",
     "question": {
