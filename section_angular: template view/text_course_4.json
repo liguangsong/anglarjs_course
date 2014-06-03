@@ -3,12 +3,13 @@
         "type": "topic",
         "order": 3,
         "desc": [
-            "当我们使用这些\\`设施\\`时，我们会发出一系列的命令，根据不同的命令会有不同的响应，就好像用遥控器换台一样。这些\\`设施\\`如何为我们服务是由控制器（controller）提供的。\n\r",
-            "我们用(controller: \\`控制器的名字\\`)的格式来指定对应的控制器。\\`控制器的名字\\`在对应的控制器文件中被定义。例如，一个控制器文件中这样写：\n\r      angular.module(`App`).controller(`name`, function () {})， \n\r那么它的\\`控制器的名字\\`为\\`name\\`。\n\r"
-        ],
+           "本章最重要的部分就是控制器了，控制器可以动态的修改模板中的代码，具体如何修改会在以后的章节学习\n\r",
+           "这节我们重点讲，如何配置controller\n\r     .when('/choose_person/liming', { \n\rtemplateUrl: `views/choose_person.html`,\n\rcontroller: '控制器的名字' // 如左侧代码所示,我们用controller: `控制器的名字`的格式来指定对应的控制器 })\n\r",
+           "`控制器的名字`在代码中被定义。大概的格式之一如下:\n\r      angular.module('orderMasterApp')\n\r.controller('ChoosePersonCtrl', function ($scope) {//这里写控制器的内容，我们在以后章节会详细讲解 \n\r});"
+            ],
         "code": "//route.js文件中代码片段：\r\t.when('/choose_person/liming', {\r\t    templateUrl: 'views/choose_person.html',\r\t    controller: '控制器'\r\t})\r\t\r\t//choose_person_controller.js文件中内容为：\r\tangular.module('orderMasterApp')\r\t.controller('ChoosePersonCtrl', function ($scope) {\r\t    \/\/这里写控制器的内容，我们在以后章节会详细讲解\r\t});",
         "question": {
-            "content": "假设我们已经有'choose_person.html'这个页面的资源（模版文件是'views/choose_person.html'，控制器文件是'choose_person_controller.js')，我们要实现当用户访问'/choose_person/liming'时会展现出'choose_person.html'的页面。那么代码区中'控制器'应该怎么填写？",
+            "content": "假设我们已经有'choose_person.html'这个页面，控制器文件是'choose_person_controller.js')，我们要实现当用户访问'/choose_person/liming'时会展现出'choose_person.html'的页面。那么代码区中'控制器'应该怎么填写？",
             "options": ["choose_person_controller.js","choose_person_controller","ChoosePersonCtrl"]
         },
         "answer": {
