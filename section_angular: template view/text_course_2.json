@@ -1,0 +1,21 @@
+{
+    "title": "路由的path",
+    "type": "topic",
+    "order": 1,
+    "desc": [
+        "<p>正像前面说的，$routeProvider提供了完整的门牌号与房间的对应表，其中when方法就是为了可以根据门牌号，找到对应的房间。</p>",
+        "<p>而这个门牌号就是我们现在讲的path，path与用户在地址栏中输入的URL一一对应。例如，当一个用户输入URL为'localhost:3000/name'，那么path即为'/name'，它是URL中去掉域名的部分。</p>",
+        "<p>这个房间就是我们要展现给用户的页面：choose_person.html</p>"
+    ],
+    "code": ".when('path' \/*path是我们的门牌号 *\/, \r\t{    ...    \/* 这里写我们的房间*\/})",
+    "question": {
+        "content": "一个用户在地址栏输入了'localhost:3000/choose_person/liming'，那么浏览器就会展现出'liming'页面给用户。那么这里的path是什么呢？",
+        "options": ["/liming","/choose_person/liming","localhost:3000/choose_person/liming"]
+    },
+    "answer": {
+        "value": "/choose_person/liming",
+        "explains": [
+            "<p>这里的URL是'localhost:3000/choose_person/liming'，域名是'localhost:3000'，那么URL中去掉域名，答案当然是'/choose_person/liming'</p>"
+        ]
+    }
+}
