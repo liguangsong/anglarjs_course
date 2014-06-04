@@ -11,7 +11,7 @@
 
     "tips": "运用$scope给people绑定数据绑定的格式为JSON数组:[{key:'value'},{key:'value'},{key:'value'}]key的值为name 'value'的值分别为每个用户名 ",
 
-    "answer": "在controller中找到注释代码 在注释之间添加代码:\n\r$scope.people= [{name:'赵大'},{name:'钱二'},{name:'张三'},{name:'李四'},{name:'王五'},{name:'刘六'}];",
+    "answer": "在controller中找到注释代码 在注释之间添加代码:\n\r    $scope.people= [{name:'赵大'},{name:'钱二'},{name:'张三'},{name:'李四'},{name:'王五'},{name:'刘六'}];",
 
     "project_dir": "/angular part-one template",
     "specs_dir": "/specs",
