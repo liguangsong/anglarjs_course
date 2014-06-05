@@ -3,7 +3,7 @@
     "type": "topic",
     "order": 1,
     "desc": [
-        "像前文所说我们想要访问localhost:3000/students，并且显示所有学生的列表，那么我们需要正确的配置路由。在配置路由时我们不用考虑\"localhost:3000\"域名和端口部分，只需要将/students和Handler建立联系。\n\r",
+        "像前文所说我们想要访问localhost:3000/students，并且显示所有学生的列表，那么我们需要正确的配置路由。在配置路由时我们不用考虑localhost:3000域名和端口部分，只需要将/students和Handler建立联系。\n\r",
         "我们如何建立联系呢？\n\r",
         "我们通过.when函数把/students和Handler建立联系。代码如下:",
         "\n\r     .when(\"/students\",Handler)\n\r",
