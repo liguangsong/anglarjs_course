@@ -16,7 +16,7 @@
         "answer": {
             "value": "ChoosePersonCtrl",
             "explains": [
-                "<p>在angular.module.controller函数中我们把控制器的名字设置为'ChoosePersonCtrl'，要为choose_person.html的页面设置相对应的控制器‘ChoosePersonCtrl’，我们必须把代码区中'控制器'设置为‘ChoosePersonCtrl’</p>"
+                "<p>在angular.module.controller函数中我们把控制器的名字设置为'ChoosePersonCtrl'，要为choose_person.html的页面设置相对应的控制器'ChoosePersonCtrl'，我们必须把代码区中'控制器'设置为'ChoosePersonCtrl'</p>"
             ]
         }
     }
