@@ -4,12 +4,12 @@
     "order": 0,
     "desc": [
         "我们已经学习了通过配置路由实现将不同的URL导向到相匹配Handler上。",
-        "接下来我们学习如何通过编写controller中的代码控制网页中的内容。这一课我们来学习anglarjs的数据绑定。",
+        "接下来我们学习如何通过编写controller中的代码控制网页中的内容。这一节我们来学习anglarjs的数据绑定。",
         "我们先来看一个数据绑定的小例子，修改页面中的变量，代码如下：",
         "\n\r\t<button>{{example}}</button>",
-        "我们在页面把一个button设置为‘{{expression}}’，然后在Controller中，通过$scope获取到expression这个变量，并赋值'你好'，页面中的button上将展示‘你好’字样",
-        "代码如下：" ,
-        "\n\r\t$scope.expression=`你好`"
+        "我们在页面把一个button设置为‘{{expression}}’，然后在Controller中，通过$scope获取到expression这个变量，并赋值'你好'，页面中的button上将展示‘你好’字样,代码如下：" ,
+        "\n\r\t$scope.expression=`你好`",
+        "下面我们做一个小练习，来回顾下上面所学的知识："
     ],
     "code": "//在main.html中有如下内容\r\t<p>Hello, {{name}}!</p>\r\t//在对应的控制器中有如下内容\r\t$scope.name='world';",
     "question": {
