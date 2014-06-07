@@ -19,7 +19,7 @@
     "answer": {
         "value": "Hello,world!",
         "explains": [
-            "<p>显然这里答案应该是'Hello,world!'，我们通过$scope.name='world';这条语句可以让HTML元素'name'替换为world，这样再结合已有的静态文字，得出'Hello,world!'</p>"
+            "<p>显然这里答案应该是'Hello,world!'，我们通过$scope.name='world';这条语句可以让HTML元素'name'设置为world，这样再结合已有的静态文字，得出'Hello,world!'</p>"
         ]
     }
 }
