@@ -12,7 +12,7 @@
     ],
     "code": "<li ng-repeat='number in numbers'>{{number}}</li>",
     "question": {
-    "content": "我们希望展示的内容是1、2、3，那么在Controller中，我们通过上节讲的数据绑定将numbers附值，代码如何编写呢？",
+    "content": "我们希望展示的内容是1、2、3，那么在Controller中，我们通过上节讲的数据绑定将数组设置给numbers，代码该如何编写呢？",
     "options": ["numbers = [1,2,3]","$scope.numbers = 1,2,3", "$scope.numbers = [1,2,3]"]
     },
     "answer": {
