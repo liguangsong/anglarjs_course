@@ -15,7 +15,7 @@
         "options": ["user passworde","admin:admin vic:31415926","user:admin  password:admin user:amalie  password:31415926"]
     },
     "answer": {
-        "value": "admin:admin vic:314159262",
+        "value": "admin:admin vic:31415926",
         "explains": [
             "<p>我们使用ngRepeat从{'admin':'admin', 'vic':'31415926'}中取出每一个元素，答案是'admin:admin vic:314159262'</p>"
         ]
