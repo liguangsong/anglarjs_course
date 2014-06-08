@@ -3,11 +3,11 @@
     "type": "topic",
     "order": 0,
     "desc": [
-        "ngRepeat为了简洁、动态的展示数组在html页面上而设计的。下面我们看一段普通的html展示一个数组是如何做的，代码如下：",
+        "ngRepeat是为了更简洁、动态的展示数组在页面上而而设计的。下面我们看一段普通的页面展示一个数组是如何做的，代码如下：",
         "\n\r\t\t<ul><li>Tom</li><li>Jimmy</li><li>Vic</li><li>Bean</li></ul>",
         "那么用ngRepeat是如何展现一个数组呢，代码如下：",
         "\n\r\t\t<ul><li ng-repeat='friend in ['Tom','Jimmy','Vic','Bean']'>{{ friend }}</li></ul>",
-        "两段代码展现的效果是相同的。第二段代码中，['Tom','Jimmy','Vic','Bean']是一个数组，我们使用ngRepeat将'['Tom','Jimmy','Vic','Bean']'数组中的每一个元素设置给friend,然后通过'{{ friend }}'展示到页面。",
+        "两段代码展现的效果是相同的。第二段代码中，['Tom','Jimmy','Vic','Bean']是一个数组，我们使用ngRepeat将这个数组中的每一个元素设置给friend,然后通过'{{ friend }}'展示到页面。",
         "下面我们做个小练习"
     ],
     "code": "<li ng-repeat='number in numbers'>{{number}}</li>",
