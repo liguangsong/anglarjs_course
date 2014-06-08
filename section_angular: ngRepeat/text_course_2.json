@@ -1,12 +1,12 @@
 {
     "title": "ngRepeat映射使用方法",
     "type": "topic",
-    "order": 2,
+    "order": 1,
     "desc": [
         "ngRepeat不仅仅能针对数组使用，他还能够对数据进行映射。方法很简单，只需要对页面中的变量以设置'(key, value)‘，Controller中代码如下：",
         "\r\n\t$scope.friends = [{ 'Tom': 18 },\r\n{ 'Jimmy': 16 },\r\n{ 'Vic': 30 },\r\n{ 'Bean' : 31 }];",
         "这个时候我们设置了friends，我们还需要在页面进行展示，页面中代码如下",
-        "\r\n\t<li ng-repeat="(name, age) in friends">{{ name }}({{ age }})</li>"
+        "\r\n\t<li ng-repeat='(name, age) in friends'>{{ name }}({{ age }})</li>"
     ],
     "code": "<li ng-repeat='(user, password) in {'admin':'admin', 'vic':'31415926'}'>{{user}}:{{password}}</li>",
     "question": {
