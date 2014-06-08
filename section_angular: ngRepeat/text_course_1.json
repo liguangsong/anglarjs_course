@@ -9,10 +9,10 @@
         "\n\r\t\t<ul><li ng-repeat='friend in ['hello','world','hello','china']'>{{ friend }}</li></ul>",
         "两段代码展现的效果是相同的。第二段代码中，['hello','world','hello','china']是一个数组，我们使用ngRepeat将'['hello','world','hello','china']'数组中的每一个元素设置给friend,然后通过'{{ friend }}'展示到页面。",
         "下面我们做个小练习"
-    ]
+    ],
     "code": "<li ng-repeat='number in numbers'>{{number}}</li>",
     "question": {
-    "content": "我们希望展示的内容是1、2、3，那么在Controller中，我们通过上节讲的数据绑定将rumbers附值，代码如何编写呢？",
+    "content": "我们希望展示的内容是1、2、3，那么在Controller中，我们通过上节讲的数据绑定将numbers附值，代码如何编写呢？",
     "options": ["numbers = [1,2,3]","$scope.numbers = 1,2,3", "$scope.numbers = [1,2,3]"]
     },
     "answer": {
