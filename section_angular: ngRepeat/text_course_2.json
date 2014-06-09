@@ -12,7 +12,7 @@
     "code": "<li ng-repeat='(user, password) in {'admin':'admin', 'vic':'31415926'}'>{{user}}:{{password}}</li>",
     "question": {
         "content": "那么当我们预览时，页面会显示什么内容呢？",
-        "options": ["user passworde","admin:admin vic:31415926","user:admin  password:admin user:amalie  password:31415926"]
+        "options": ["user password","admin:admin vic:31415926","user:admin  password:admin user:amalie  password:31415926"]
     },
     "answer": {
         "value": "admin:admin vic:31415926",
