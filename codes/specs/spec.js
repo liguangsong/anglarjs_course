@@ -209,7 +209,7 @@ function compute_result_of_js_angular_section_4_practice_2() {
     function check_attributes(elem_id,check_point){
       var attributes = document.getElementById(elem_id).attributes;
       for(var item in attributes){
-        if(attributes[item] == check_point){
+        if(attributes[item].nodeValue == check_point){
           return true;
         }
       }
