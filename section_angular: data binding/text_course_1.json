@@ -1,6 +1,6 @@
 {
     "title": "scope概要",
-    "type": "topic",
+    "type": "text",
     "order": 0,
     "desc": [
         "scope对我们其实并不是陌生的概念，在我们的上一章节开始挑战的练习中已经接触过scope了，代码如下：",
