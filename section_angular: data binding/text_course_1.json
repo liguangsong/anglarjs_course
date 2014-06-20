@@ -5,7 +5,7 @@
     "desc": [
         "对我们来说scope其实并不是陌生的概念，在我们的上一章节“开始挑战”的练习中已经接触过scope了，细心的读者可能注意到如下代码:\n\r\t angular.module('orderMasterApp')\n\t\t\t.controller('OrderDetailsCtrl', function ($scope, $location)",
         "controller中我们会通过‘$scope’将scope传递给controller，那么scope是什么呢？",
-        "scope顾名思义‘范围’，他限定了HTML与Controller的数据访问范围，针对不同的HTML和Controller可以设置不同的scope，而在不同的scope中访问的数据也会不同。这就好像我们走进一个宿舍有老大、老二、老三（按年龄排序），而在不同宿舍的老大、老二、老三都时不同的人，而宿舍就是这个scope。",
+        "scope顾名思义‘范围’，他限定了HTML与Controller的数据访问范围，针对不同的HTML和Controller可以设置不同的scope，而在不同的scope中访问的数据也会不同。这就好像我们走进一个宿舍有老大、老二、老三（按年龄排序），而在不同宿舍的老大、老二、老三都是不同的人，而宿舍就是这个scope。",
         "有了scope我们能做什么呢？这样我们就可以用scope为HTML和Controller建立起数据访问的桥梁，同一个scope的HTML和Controller可以访问到相同的数据，就好像我们走进同一个宿舍老大、老二、老三总会是同一个人。我们接下来要讲我们如何使用这个机制。"
     ]
 }
