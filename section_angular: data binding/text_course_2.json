@@ -8,7 +8,7 @@
         "我们先来看一个数据绑定的小例子，修改页面中的变量，代码如下：",
         "\n\r\t<button>{{example}}</button>",
         "我们在页面把一个button设置为‘{{example}}’，然后在Controller中，通过$scope获取到example这个变量，并赋值'你好'，页面中的button上将展示‘你好’字样,代码如下：" ,
-        "\n\r\t$scope.example=\'你好\'",
+        "\n\r\t$scope.example",
         "下面我们做一个小练习，来回顾下上面所学的知识："
     ],
     "code": "//在main.html中有如下内容\r\t<p>Hello, {{name}}!</p>\r\t//...\r\t//在对应的控制器中有如下内容\r\t$scope.name='world';",
