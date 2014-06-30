@@ -32,10 +32,10 @@ function compute_result_of_js_angular_section_1_practice_1() {
         scope.$apply(function () {
             scope.help_order();
         });
-        setTimeout('document.getElementById("order_details_page")?source.postMessage(true, "http://" + window.location.host):source.postMessage(false, "http://" + window.location.host)', 700)
+        setTimeout('document.getElementById("order_details_page")?parent.report(true, "Success!"):parent.report(false, "Unfortunately!")', 700)
 
     } else {
-        source.postMessage(false, "http://" + window.location.host);
+        parent.report(false, "Unfortunately!");
     }
 
 }
@@ -57,15 +57,15 @@ function compute_result_of_js_angular_section_2_practice_1() {
 
             if (scope.choose_people && scope.choose_people == "选人") {
                 console.log("1")
-                source.postMessage(true, "http://" + window.location.host);
+                parent.report(true, "Success!");
             } else {
                 console.log("2")
-                source.postMessage(false, "http://" + window.location.host);
+                parent.report(false, "Unfortunately!");
             }
 
         } else {
             console.log("22")
-            source.postMessage(false, "http://" + window.location.host);
+            parent.report(false, "Unfortunately!");
         }
     }
     setTimeout(function() {test_choose_people()}, 700);
@@ -92,9 +92,9 @@ function compute_result_of_js_angular_section_2_practice_2() {
                     scope.go_choose_person();
                 }
             });
-            setTimeout('document.getElementById("choose_people_page")?source.postMessage(true, "http://" + window.location.host):source.postMessage(false, "http://" + window.location.host)', 700);
+            setTimeout('document.getElementById("choose_people_page")?parent.report(true, "Success!"):parent.report(false, "Unfortunately!")', 700);
         } else {
-            source.postMessage(false, "http://" + window.location.host);
+            parent.report(false, "Unfortunately!");
         }
     }
 }
@@ -133,11 +133,11 @@ function compute_result_of_js_angular_section_3_practice_1() {
                     count+=$.inArray(people[index].name, array);
                 }
 
-                count==15?source.postMessage(true, "http://" + window.location.host):source.postMessage(false, "http://" + window.location.host);
+                count==15?parent.report(true, "Success!"):parent.report(false, "Unfortunately!");
 
             });
         } else {
-            source.postMessage(false, "http://" + window.location.host);
+            parent.report(false, "Unfortunately!");
         }
     }
 }
@@ -174,12 +174,12 @@ function compute_result_of_js_angular_section_4_practice_1() {
             });
 
             if (localStorage.getItem('person_name') == '赵大') {
-                setTimeout('document.getElementsByClassName("well").length != 0 && document.getElementsByClassName("well")[0].value == "赵大" ? source.postMessage(true, "http://" + window.location.host) : source.postMessage(false, "http://" + window.location.host)', 700)
+                setTimeout('document.getElementsByClassName("well").length != 0 && document.getElementsByClassName("well")[0].value == "赵大" ? parent.report(true, "Success!") : parent.report(false, "Unfortunately!")', 700)
             } else {
-                source.postMessage(false, "http://" + window.location.host);
+                parent.report(false, "Unfortunately!");
             }
         } else {
-            source.postMessage(false, "http://" + window.location.host);
+            parent.report(false, "Unfortunately!");
         }
     }
 }
@@ -224,12 +224,12 @@ function compute_result_of_js_angular_section_4_practice_2() {
                 scope.choose_person('赵大');
             });
             if( document.getElementById('confirm').length != 0 && check_attributes("confirm","person_name")) {
-                source.postMessage(true, "http://" + window.location.host);
+                parent.report(true, "Success!");
             } else {
-                source.postMessage(false, "http://" + window.location.host);
+                parent.report(false, "Unfortunately!");
             }
         } else {
-            source.postMessage(false, "http://" + window.location.host);
+            parent.report(false, "Unfortunately!");
         }
     }
 }
