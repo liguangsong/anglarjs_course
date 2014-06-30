@@ -8,7 +8,7 @@
             "desc": "订餐大师是行政帮大家订餐时使用的应用。我们通过订餐大师的案例来学习angularjs的基本知识以及web开发的基础框架。",
             "href": "/super_show/index.html"
         },
-        "order": 0,
+        "order": 1,
         "ico": "http://www.codefordream.com/images/angularjs_logo.png",
         "title_ico": "http://www.codefordream.com/images/AngularJS.png",
         "version": "1.0"
