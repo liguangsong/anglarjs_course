@@ -21,6 +21,10 @@
             "path": "/angular part-one template/scripts/controllers/"
         },
         {
+            "name": "choose_person.html",
+            "path": "/angular part-one template/views/"
+        },
+        {
             "name": "order_details_controller.js",
             "path": "/angular part-one template/scripts/controllers/"
         },
