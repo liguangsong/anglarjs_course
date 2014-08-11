@@ -17,7 +17,7 @@
         "type": "path",
         "column": "_id",
         "index": {
-            "name": "JavaScript"
+            "id_name": "javascript"
         }
     }
 }
