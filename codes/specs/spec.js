@@ -25,12 +25,18 @@ var test_of = {
 
 function compute_result_of_js_angular_section_1_practice_1() {
 
-    var home_page_id = document.getElementById("home_page")
+    var home_page_id = document.getElementById("home_page");
 
     if (home_page_id) {
         var scope = angular.element(home_page_id).scope();
+        if (scope.routes['/'].controller !== 'MainCtrl'
+            || scope.routes['/order_details'].controller !== 'OrderDetailsCtrl'
+            || scope.routes['/choose_person'].controller !== 'ChoosePersonCtrl'
+            ) {
+            return parent.report(false, "Unfortunately!");
+        }
         scope.$apply(function () {
-            scope.help_order();
+          scope.help_order();
         });
         setTimeout('document.getElementById("order_details_page")?parent.report(true, "Success!"):parent.report(false, "Unfortunately!")', 700)
 

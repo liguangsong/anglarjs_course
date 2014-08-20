@@ -10,12 +10,11 @@ myModule.filter('color1', function () {
 });
 
 angular.module('orderMasterApp')
-    .run(['$rootScope','$location', '$routeParams', '$route', function($rootScope, $location, $routeParams, $route) {
+    .run(['$rootScope', '$route', function($rootScope, $route) {
 
         $.map($route.routes, function(route) {
             if (route.templateUrl === '') {
                 route.templateUrl = 'empty';
-                console.log(route.templateUrl);
             }
             return route;
         });
