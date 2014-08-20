@@ -29,6 +29,11 @@ function compute_result_of_js_angular_section_1_practice_1() {
 
     if (home_page_id) {
         var scope = angular.element(home_page_id).scope();
+
+        if (!scope.routes['/'] || !scope.routes['/order_details'] || !scope.routes['/choose_person']) {
+            return parent.report(false, "Unfortunately!");
+        }
+
         if (scope.routes['/'].controller !== 'MainCtrl'
             || scope.routes['/order_details'].controller !== 'OrderDetailsCtrl'
             || scope.routes['/choose_person'].controller !== 'ChoosePersonCtrl'

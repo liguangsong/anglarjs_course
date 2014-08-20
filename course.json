@@ -11,7 +11,7 @@
         "order": 1,
         "ico": "http://www.codefordream.com/images/angularjs_logo.png",
         "title_ico": "http://www.codefordream.com/images/AngularJS.png",
-        "version": "1.1"
+        "version": "1.2.0"
     },
     "relevance": {
         "type": "path",
